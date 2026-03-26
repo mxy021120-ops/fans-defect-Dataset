@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Dirt', 'Oil LEAKAGE', 'Pin Hole']
+
+roboflow:
+  workspace: saodja
+  project: fans-detect
+  version: 9
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/saodja/fans-detect/dataset/9
